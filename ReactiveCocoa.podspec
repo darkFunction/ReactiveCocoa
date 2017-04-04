@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.ios.source_files = "ReactiveCocoa/UIKit/*.{swift}"
   s.tvos.source_files = "ReactiveCocoa/UIKit/*.{swift}"
   s.tvos.exclude_files = "ReactiveCocoa/UIKit/*{UIDatePicker,UISwitch}*"
-  s.module_map = "ReactiveCocoa/module.modulemap"
+  s.module_map = "ReactiveCocoa/ReactiveCocoa.modulemap"
   
   s.dependency 'ReactiveSwift', '~> 1.0.0-alpha.3'
 end
